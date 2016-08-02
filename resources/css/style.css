@@ -181,9 +181,6 @@ nav{
 .sub:hover{
     transform: scale(1.05);
 }
-.name h1{
-    color: #de2121;
-}
 
 /*CONTACT*/
 .step-box:first-child{
