@@ -24,6 +24,7 @@ header{
     height: 100vh;
 }
 .front{
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/white2.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/white2.jpg);
     background-color: #eae1e1;
     background-size: cover;
@@ -31,6 +32,7 @@ header{
     background-attachment: fixed;
 }
 .head{
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/white2.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/white2.jpg);
     background-color: #eae1e1;
     background-size: cover;
@@ -83,6 +85,7 @@ nav{
     text-decoration: none;
  
     border-right: 1px solid white;
+    -webkit-transition: background-color .8s, color .8s;
     transition: background-color .8s, color .8s;   /*btn btn2 uvoyer transition e ekhane dite hobee*/
 }
 
@@ -135,6 +138,7 @@ nav{
     border: 0;
     color: #d6d6d6;
     font-size: 160%;
+    -webkit-transition: color .4s;
     transition: color .4s;
 }
  
@@ -142,6 +146,7 @@ nav{
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram{
+     -webkit-transition: color .4s;
      transition: color .4s;   
 }
 .ion-social-facebook:hover{
@@ -174,11 +179,16 @@ nav{
 }
 .name,
 .sub{
+     -webkit-transform: scale(1.00);
      transform: scale(1.00);
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
     transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
 }
 .name:hover,
 .sub:hover{
+    -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
 
@@ -270,11 +280,16 @@ footer p{
     font-family: monospace;
     list-style: none;
     margin-bottom: 5px;
+    -webkit-transform: scale(1.00);
     transform: scale(1.00);
+    -webkit-transition: background-color .5s, -webkit-transform .5s;
+    transition: background-color .5s, -webkit-transform .5s;
     transition: transform .5s, background-color .5s;
+    transition: transform .5s, background-color .5s, -webkit-transform .5s;
 }
 .box2:hover,
 .box3:hover{
+    -webkit-transform: scale(1.10);
     transform: scale(1.10);
     background-color: white;
 }
