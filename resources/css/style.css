@@ -69,7 +69,7 @@ h2:last-child{
 }
 nav{
     background: #de2121;
-    box-shadow: 2px 2px 6px grey;
+    box-shadow: 0px 2px 6px grey;
     
 }
 .main-nav li{
@@ -146,7 +146,7 @@ nav{
 .ion-social-twitter,
 .ion-social-youtube,
 .ion-social-googleplus,
-.ion-social-instagram{
+.ion-social-linkedin-outline{
      -webkit-transition: color .3s;
      transition: color .3s;   
 }
@@ -159,8 +159,8 @@ nav{
 .ion-social-googleplus:hover{
     color: #dd4b39;
 }
-.ion-social-instagram:hover{
-    color: #125688;
+.ion-social-linkedin-outline:hover{
+    color: #0077B5;
 }
 .ion-social-youtube:hover{
     color: #dd4b39;
@@ -277,7 +277,7 @@ footer{
     background-color: #de2121;
     padding: 50px;
     font-size: 80%;
-    box-shadow: 1px -2px 6px grey;
+    box-shadow: 0px -2px 6px grey;
 }
 footer p{
     text-align: center;
